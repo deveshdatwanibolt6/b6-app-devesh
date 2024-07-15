@@ -1,0 +1,5 @@
+build:
+    docker:
+        web: ./app/Dockerfile
+run: 
+    web: flask --app b6/app run -h 0.0.0.0 -p $PORT

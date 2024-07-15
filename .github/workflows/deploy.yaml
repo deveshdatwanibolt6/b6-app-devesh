@@ -1,0 +1,20 @@
+# name: deploy-application
+# on:
+#   push:
+#     branches:
+#       main
+
+# jobs:
+#   Test:
+#     name: 
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: echo "RUNNING TESTS"
+#       - name: check-out-current-repository  
+#         uses: actions/checkout@v4
+#       - name: runs-heroku-container-deploy
+#         uses: akhileshns/heroku-deploy@v3.13.15
+#         with:
+#           heroku_api_key: "HRKU-a59f0f4c-5a4c-44f9-92a2-1516623a1d08"
+#           heroku_app_name: "b6-app" 
+#           heroku_email: "deveshd@bolt6.ai"
